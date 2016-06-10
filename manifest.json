@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "豆瓣电影搜索",
+  "description": "豆瓣电影搜索",
+  "version": "1.0",
+  "background": { "scripts": ["js/menu.js"] },
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "images/icon_16.png",
+	"48": "images/icon_48.png",
+	"128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon_16.png"
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}

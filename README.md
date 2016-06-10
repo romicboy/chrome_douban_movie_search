@@ -1,1 +1,2 @@
 # chrome_douban_movie_search
+这是一个豆瓣电影搜索的chrome插件
